@@ -176,4 +176,111 @@ text-align:center;
 width:905px;
 }
 
+#mainNav {
+	display: none;
+}
+
+/*-------------------------START RESPONSIVE CODE added March 2015 Lindsey Maddox--------------------------*/
+
+
+@media screen and (max-width: 900px) {
+	#superduper {
+		width: 100%;
+	}
+	#principal {
+		width: 100%;
+		position: relative;
+	}
+	#titulo {
+		background: url(./images/wagstrom-banner-rwd.png) no-repeat center center #F99;
+	}
+	#credit {
+		width: 100%;
+	}
+	#bloco-posts {
+		min-height: auto;
+	}
+	li#text-3 {
+		display: none;
+	}
+	#nav {
+		display: none;
+	}
+	#bloco-posts {
+		width: 67%;
+	}
+	#bloco-posts img {
+		width: 98%;
+	}
+	#bloco-posts div object {
+		display: none;
+	}
+	.post {
+		width: 100%;
+	}
+	#mainNav {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+		z-index: 2;
+	}
+	#nav.expand {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 16px;
+		width: 160px;
+		z-index: 1;
+	}
+	#nav ul {
+		border-bottom: 8px solid #FFF;		
+	}
+	#nav ul li {
+		float: none;
+	}
+	p img, h1 img {
+		height: auto!important;
+	}
+	h1 img.alignright {
+		width: auto!important;
+	}
+	div.aligncenter {
+		width: 100%!important;
+	}
+	div.aligncenter p iframe {
+		width: 100%!important;
+	}
+	p object {
+		width: 100%!important;
+	}
+	p object embed {
+		width: 100%!important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#bloco-posts {
+		width: 62%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
