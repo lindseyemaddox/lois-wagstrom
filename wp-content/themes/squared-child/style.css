@@ -266,11 +266,36 @@ width:905px;
 	}
 }
 
+@media screen and (max-width: 700px) {
+	#bloco-posts {
+		width: 56%;
+	}
+}
 
+@media screen and (max-width: 600px) {
+	#bloco-posts {
+		width: 47%;
+	}
+}
 
+@media screen and (max-width: 500px) {
+	#titulo {
+		background-size: 60%;
+		margin-top: 15px;
+		height: 60px;
+	}
+	#bloco-posts,
+	div#bloco-direita ul li {
+		width: 91%;
+	}
+}
 
-
-
+@media screen and (max-width: 400px) {
+	#bloco-posts,
+	div#bloco-direita ul li {
+		width: 88%;
+	}
+}
 
 
 
